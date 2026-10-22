@@ -1,0 +1,13 @@
+{
+  "name": "craftnest-root",
+  "version": "1.0.0",
+  "description": "CraftNest — Handmade with Heart full-stack marketplace",
+  "scripts": {
+    "start": "node server/server.js",
+    "seed": "npm run seed --prefix server",
+    "test:api": "node server/scripts/test-api.js",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  }
+}
