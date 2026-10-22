@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CraftNest — Handmade with Heart
 
 > A complete, full-stack, responsive e-commerce marketplace for handmade, artisanal, and homemade craft products connecting independent makers across India with conscious patrons.
@@ -206,3 +207,7 @@ ED/
 - **Atomic Stock Protection:** Checkouts utilize MongoDB's `$inc` and `$gte` atomic conditional queries to prevent overselling under high concurrency.
 - **Server Recalculation:** Product prices, shipping fees, and commission totals are always retrieved directly from database records at checkout time rather than relying on client input.
 - **Role Enforcement:** All admin and seller operations are strictly guarded on the backend using the `authenticate` and `authorize('seller', 'admin')` middleware.
+=======
+# CraftNest
+ED Project
+>>>>>>> ae5a02a002e70799104a6febd83cf8d679e73ca5
